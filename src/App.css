@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.circle {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.outer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackbox {
+  padding-top: 20px;
+  background-color: black;
+  width: 120px;
+  border-radius: 20%;
+}
+
+
+.clock{
+  background-color: #fff;
+  color: #61dafb;
+  height: 100px;
+  width : 200px;
+  margin-left: 40px;
+}
+body{
+  background-color: #61dafb;
+  display:flex;
+}
